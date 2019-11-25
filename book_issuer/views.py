@@ -1,7 +1,6 @@
 from django.http import HttpResponseRedirect , HttpResponse
 from django.shortcuts import render, reverse , redirect
 from .forms import forms
-from .hu_lib_book_fetcher import *
 from .models import *
 from datetime import datetime , timedelta
 import datetime as dt
